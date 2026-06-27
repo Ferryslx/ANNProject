@@ -14,12 +14,11 @@
 ├── src/
 │   └── ANNProject.py       # 主程序：神经网络定义、训练与测试
 ├── utils/
-│   ├── common.py           # 数据预处理工具（时间格式化、排序、去重）
 │   └── log.py              # 日志记录器封装
 ├── model/
 │   └── phone.pth           # 训练好的模型参数
 ├── log/
-│   └── predict*.log        # 训练日志
+│   └── ANNModel*.log        # 训练日志
 └── README.md
 ```
 

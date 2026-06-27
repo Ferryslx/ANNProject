@@ -41,7 +41,7 @@ class PhonePriceModel(nn.Module):
         self.linear4=nn.Linear(512,128)
         self.output=nn.Linear(128,output_dim)
         #日志
-        logfile_name = 'predict' + datetime.datetime.now().strftime('%Y%m%d')
+        logfile_name = 'ANNModel' + datetime.datetime.now().strftime('%Y%m%d')
         self.logger=Logger('../',logfile_name).get_logger()
 
     def forward(self,x):
